@@ -1,0 +1,7 @@
+services:
+  scala:
+    build: .
+    volumes:
+      - ./workspace:/workspace
+    environment:
+      - USER=root
